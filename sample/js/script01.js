@@ -5,6 +5,16 @@ $("#button01").on("click",function(){
 })
 
 $("#button02").on("click",function(){
-    $(".back-red").hide();
+    //$(".back-red").show();
+    $(".back-blue").hide(); 
 })
+
+$("#button03").on("click",function(){
+    $("#box03,#box07").hide();  
+})
+
+$("#button04").on("click",function(){
+    $(".box").show();  
+})
+
 })
