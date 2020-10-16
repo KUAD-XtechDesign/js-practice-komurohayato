@@ -5,6 +5,6 @@ $("#button01").on("click",function(){
 })
 
 $("#button02").on("click",function(){
-    $(".back-red").show();
+    $(".back-red").hide();
 })
 })
